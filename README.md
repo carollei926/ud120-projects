@@ -27,11 +27,10 @@ You only have to do this once, the code base contains the starter code for all t
 #### Timing your NB classifier
 An important topic that we didn’t explicitly talk about is the time to train and test our algorithms. Put in two lines of code, above and below the line fitting your classifier, like this:
 
-'''
 t0 = time()
 < your clf.fit() line of code >
 print "training time:", round(time()-t0, 3), "s"
-'''
+
 
 Put similar lines of code around the clf.predict() line of code, so you can compare the time to train the classifier and to make predictions with it. What is faster, training or prediction?
 
